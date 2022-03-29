@@ -21,7 +21,7 @@ project "GLFW"
 	
 	filter "system:windows"
 		buildoptions { "-std=c11", "-lgdi32"}
-		systemversions "latest"
+		systemversion "latest"
 		staticruntime "On"
 		
 		files
