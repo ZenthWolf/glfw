@@ -1,6 +1,10 @@
 # The canonical out-of-tree build subdirectory
 build
 
+/bin
+/bin-obj
+.gitignore
+
 # Visual Studio clutter
 _ReSharper*
 *.sdf
